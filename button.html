@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-size: 150px;
+        }
+
+        button {
+            display: inline-block;
+            font-size: 3rem;
+            background-color: #ecad9e;
+            color: #f4606c;
+            border: 2px solid #fca5e5;
+            border-radius: .5rem;
+            padding: .8rem 2rem;
+        }
+
+        button:hover {
+            border-color: #ef4444;
+            cursor: pointer;
+        }
+
+        button:active {
+            background-image: linear-gradient(to right, #fca5a5 0%, #fca5a5 50%, #fecaca 50%, #fecaca 100%);
+            background-size: 200% 100%;
+            background-position: 100%;
+            animation: 2s confirmation ease-out forwards;
+        }
+
+        @keyframes confirmation {
+            from {
+                background-position: 100%;
+            }
+            to {
+                background-position: 0%;
+            }
+        }
+    </style>
+    <title>DeletedButton</title>
+</head>
+
+<body>
+    <button>
+        Delete
+    </button>
+
+</body>
+
+</html>

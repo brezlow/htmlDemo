@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3178c6;
+
+}
+
+.item {
+    width: 20px;
+    height: 84px;
+    margin: 0 2px;
+    background-color: #fff;
+    animation: waves 1.2s infinite ease-in-out;
+    animation-delay: var(--delay);
+}
+
+@keyframes waves {
+
+    0%,
+    40%,
+    100% {
+        transform: scale(0.4);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+}

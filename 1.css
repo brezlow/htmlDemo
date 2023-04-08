@@ -1,0 +1,32 @@
+ body {
+     background-color: beige;
+     background-image: url("https://img.moegirl.org.cn/common/thumb/7/7c/Onimai_KV.jpg/1024px-Onimai_KV.jpg");
+     background-repeat: no-repeat;
+     background-position: center top;
+     background-attachment: fixed;
+ }
+
+ h1 {
+     color: brown;
+     text-align: center;
+ }
+
+ p {
+     font-weight: bold;
+     font-size: 20px;
+     text-align: center;
+ }
+
+ a:link,a:visited{
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: #000000;
+    width:auto;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+ }
+ a:hover,a:active{
+    background-color: #7A991A;
+ }
